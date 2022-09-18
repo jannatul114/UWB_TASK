@@ -5,9 +5,9 @@ const Navber = () => {
     return (
         <div>
             <nav class="navbar mt-0 nav_color navbar-expand-lg py-3 px-5 shadow-lg">
-                <a class="navbar-brand red fs-3 dsi" href='#' ><img height={'50px'} src={logo} alt="" /> <span className='h4 fw-bold text-white ms-2 mt-2'>
+                <a class="navbar-brand red fs-3 dsi" href='#' ><img height={'50px'} src={logo} alt="" /> <span className='h4 fw-bold text-white ms-2 mt-2 query'>
                     UNITED WELL-BEING FOUNDATION</span></a>
-                {/* <div class="container-fluid"> */}
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

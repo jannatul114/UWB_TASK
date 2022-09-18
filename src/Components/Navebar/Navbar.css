@@ -1,8 +1,3 @@
-* {
-    margin: 0px;
-    margin-top: 0px;
-}
-
 .nav_color {
     background-color: #67B0D1;
 }
@@ -11,4 +6,15 @@
     background: #95C8DF;
     padding: 7px;
     border-radius: 5px;
+}
+
+.query {
+    font-size: 40px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .query {
+        display: none;
+    }
 }

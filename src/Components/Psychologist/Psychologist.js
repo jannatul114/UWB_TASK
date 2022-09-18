@@ -8,17 +8,16 @@ import twitter from '../../images/twitter.PNG';
 import insta from '../../images/insta.PNG';
 import email from '../../images/email.PNG';
 import linkedin from '../../images/linkedin.PNG';
+import './Psychologist.css';
 const Psychologist = () => {
     return (
         <div className='container my-5'>
-            <h2 className='text-center my-3 '>Our Psychologist</h2>
+            <h2 className='text-center my-3 fw-bold '>Our Psychologists</h2>
 
 
             <div className='my-5'>
                 <div class="row d-flex justify-content-between align-items-center gy-3">
-
-
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 ">
                         <div className='shadow-lg p-3 rounded-2' data-aos="fade-up"
                             data-aos-easing="ease-in"
                             data-aos-delay="0"
