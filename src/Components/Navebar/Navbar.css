@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.nav_color {
+    background-color: #67B0D1;
+}
+
+.hover:hover {
+    background: #95C8DF;
+    padding: 7px;
+    border-radius: 5px;
+}
